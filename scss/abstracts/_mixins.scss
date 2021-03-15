@@ -1,0 +1,60 @@
+
+/* Transitions */
+@mixin transition-ease{
+  transition: all 0.3s ease-in-out;
+}
+
+/* Media Queries */
+@mixin media-xsm-min{
+  @media screen and (min-width: 500px){
+    @content;
+  }
+}
+
+@mixin media-xsm-max{
+  @media screen and (max-width: 500px){
+    @content;
+  }
+}
+
+@mixin media-sm-min{
+  @media screen and (min-width: 670px){
+    @content;
+  }
+}
+
+@mixin media-sm-max{
+  @media screen and (max-width: 670px){
+    @content;
+  }
+}
+
+@mixin media-md-min{
+  @media screen and (min-width: 768px){
+    @content;
+  }
+}
+
+@mixin media-md-max{
+  @media screen and (max-width: 768px){
+    @content;
+  }
+}
+
+@mixin media-lg-min{
+  @media screen and (min-width: 1024px){
+    @content;
+  }
+}
+
+@mixin media-lg-max{
+  @media screen and (max-width: 1024px){
+    @content;
+  }
+}
+
+@mixin media-xlg-max{
+  @media screen and (max-width: 1350px){
+    @content;
+  }
+}

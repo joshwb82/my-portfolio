@@ -1,0 +1,99 @@
+body{
+  color: $primary-color;
+  font-family: $body-copy;
+  line-height: 1.5;
+}
+
+
+p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+}
+
+a{
+  color: #fff;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 5rem;
+  padding-bottom: .5rem;
+  margin-bottom: 0;
+
+  @include media-lg-max{
+    font-size: 4.5rem;
+  }
+
+  @include media-md-max{
+    font-size: 4rem;
+  }
+
+  @include media-sm-max{
+    font-size: 3.3rem;
+    line-height: 1;
+  }
+
+  @include media-xsm-max{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .last{
+    color: $secondary-color;
+    font-family: $headings;
+  }
+
+}
+
+
+h2{
+  font-size: 2.5rem;
+
+  br{
+    display: none;
+  }
+
+  .last{
+    color: $secondary-color;
+    font-family: $headings;
+  }
+
+  @include media-sm-max{
+    font-size: 2rem;
+    padding: 15px 0 5px;
+
+    br{
+      display: block;
+    }
+
+  }
+
+  @include media-xsm-max{
+    font-size: 1.8rem;
+  }
+
+}
+
+
+h3{
+  font-weight: 400;
+  
+  br{
+    display: none;
+  }
+
+  @include media-sm-max{
+
+    br{
+      display: block;
+    }
+
+  }
+
+  @include media-xsm-max{
+    font-size: 1.2rem;
+  }
+
+}
