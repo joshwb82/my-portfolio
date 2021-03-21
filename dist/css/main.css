@@ -853,33 +853,27 @@ footer.page-footer {
   width: 100%;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1530px) {
   .logos__content {
     max-width: 800px;
     margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 670px) {
-  .logos__content {
-    max-width: 400px;
-  }
-}
-
 .logos__content img {
-  height: 75px;
-  padding: 20px 20px 20px;
+  height: 45px;
+  margin: 20px 20px 20px;
 }
 
 @media screen and (max-width: 768px) {
   .logos__content img {
-    height: 70px;
+    height: 40px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .logos__content img {
-    height: 65px;
+    height: 35px;
   }
 }
 
