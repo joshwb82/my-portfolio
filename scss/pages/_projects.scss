@@ -87,6 +87,13 @@
       }
     }
 
+    h4{
+      text-align: center;
+      text-transform: uppercase;
+      color: #ff6150;
+      padding-bottom: 10px;
+    }
+
     // i{
     //   font-size: 40px;
     //   padding-bottom: 15px;
@@ -159,7 +166,7 @@
             background-color:transparent;
             @include transition-ease;
 
-            h3, p{
+            h3, h4, p{
               display: none;
             }
 
@@ -231,6 +238,10 @@
 
       .project-block.block-11{
         background-image: url('../img/chiel-connect-full22.png');
+      }
+
+      .project-block.block-12{
+        background-image: url('../img/chivas-full.jpg');
       }
 
       .skills{
